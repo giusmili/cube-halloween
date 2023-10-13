@@ -25,10 +25,10 @@ header h1{
 	text-align: center;
 	color: #a91010;
 	font-size: 7.5rem;
-	
 	letter-spacing: .5rem;
 	animation: blur 2.5s linear infinite alternate;
     animation-delay: 0s;
+	text-shadow: -.1rem -.1rem 0 #222, .1rem -.1rem 0 #222, -.1rem .1rem 0 #222, .1rem .1rem 0 #222, .4rem .4rem 0 rgba(0, 0, 0, 0.2);
 }
 
 @keyframes blur{
