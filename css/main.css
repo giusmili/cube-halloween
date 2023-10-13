@@ -31,9 +31,9 @@
 	 height: 100%;
 	 width: 100%;
 	 font-family: "Baloo Bhai", cursive;
-	 color: white;
-	 text-shadow: 0 0 1px black;
-	 border: 3px solid white;
+	 color: #ffffff;
+	 text-shadow: 0 0 1px #000000;
+	 border: 3px solid #ffffff;
 }
 
  .containCube .cubeGroup h2 {
