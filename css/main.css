@@ -1,19 +1,54 @@
 @import url("https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap");
- body {
+html{
+	font-size: 62.5%;
+}
+h1,h2,h3{
+	margin: 0;
+}
+
+body {
 	/*  background: black; */
-     background: url(../asset/cover.jpg) no-repeat fixed center center  / cover;
-	 overflow: hidden;
+	font: 1.6rem sans-serif;
+    background: url(../asset/cover.jpg) no-repeat fixed center center  / cover;
+	overflow: hidden;
+	letter-spacing: .1rem;
+	line-height: 1.6;
+	-webkit-backdrop-filter: blur(.5rem);
+	backdrop-filter: blur(.5rem);
+}
+header h1{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	font-family: 'halloween_tooregular';
+	text-align: center;
+	color: #a91010;
+	font-size: 7.5rem;
+	
+	letter-spacing: .5rem;
+	animation: blur 2.5s linear infinite alternate;
+    animation-delay: 0s;
+}
+
+@keyframes blur{
+    from{
+		filter: drop-shadow(0 0 0 0);
+    }
+    to{
+		filter: drop-shadow(3px -3px 5px #ffff00);
+    }
 }
  .containCube {
 	 position: relative;
 	 height: 100vh;
 	 width: 100%;
-	 perspective: 800px;
+	 perspective: 85rem;
 }
  .containCube .cube {
 	 position: absolute;
-	 height: 300px;
-	 width: 300px;
+	 height: 30rem;
+	 width: 30rem;
 	 top: 0;
 	 right: 0;
 	 bottom: 0;
@@ -23,6 +58,7 @@
 	 transform-style: preserve-3d;
 	 transform-origin: 50% 50%;
 	 animation: rotate 20s ease-in-out infinite alternate;
+	 z-index: 10;
 }
  .containCube .cubeGroup {
 	 position: absolute;
@@ -32,8 +68,8 @@
 	 width: 100%;
 	 font-family: "Baloo Bhai", cursive;
 	 color: #ffffff;
-	 text-shadow: 0 0 1px #000000;
-	 border: 3px solid #ffffff;
+	 text-shadow: 0 0 .1rem #000000;
+	 border: .1rem solid #ffffff;
 }
 
  .containCube .cubeGroup h2 {
@@ -41,26 +77,26 @@
      text-align: center;
 }
  .containCube .cube-front {
-	 transform: translatez(150px);
+	 transform: translatez(15rem);
 }
  .containCube .cube-rear {
-	 transform: translatez(-150px) rotatey(180deg);
+	 transform: translatez(-15rem) rotatey(180deg);
 }
  .containCube .cube-right {
 	 transform-origin: 100%;
-	 transform: rotatey(90deg) translatex(150px);
+	 transform: rotatey(90deg) translatex(15rem);
 }
  .containCube .cube-left {
 	 transform-origin: 0%;
-	 transform: rotatey(-90deg) translatex(-150px);
+	 transform: rotatey(-90deg) translatex(-15rem);
 }
  .containCube .cube-bottom {
 	 transform-origin: 50% 100%;
-	 transform: rotatex(-90deg) translatey(150px);
+	 transform: rotatex(-90deg) translatey(15rem);
 }
  .containCube .cube-top {
 	 transform-origin: 50% 0%;
-	 transform: rotatex(90deg) translatey(-150px);
+	 transform: rotatex(90deg) translatey(-15rem);
 }
  .containCube .cube-1 {
 	 background: rgba(76, 205, 246, 0.9);
@@ -74,7 +110,9 @@
 .containCube .cube-1 img,
 .containCube .cube-2 img,
 .containCube .cube-3 img,
-.containCube .cube-4 img, 
+.containCube .cube-4 img,
+.containCube .cube-5 img,
+.containCube .cube-6 img,
 .containCube .cube-top img,
 .containCube .cube-bottom img{
 	display: inline-block;
@@ -82,6 +120,7 @@
 	height: 100%;
 	object-fit: cover;
 	vertical-align: middle;
+	opacity: .8;
 }
 
  .containCube .cube-3 {
@@ -131,16 +170,16 @@
 }
  @keyframes rotateZed {
 	 20% {
-		 transform: translatez(100px);
+		 transform: translatez(10rem);
 	}
 	 40% {
-		 transform: translatez(-100px);
+		 transform: translatez(-10rem);
 	}
 	 60% {
-		 transform: translatez(100px);
+		 transform: translatez(10rem);
 	}
 	 80% {
-		 transform: translatez(-100px);
+		 transform: translatez(-10rem);
 	}
 }
  
