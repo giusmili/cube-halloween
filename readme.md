@@ -3,7 +3,7 @@
 ---
 >Intégration d'un cube animé en html et css. Vous pouvez également changer le design et créer une interface de navigation
 
-*Design by GiusmIli - 2023*
+*Design by Giusmili - 2023*
 
 ![mit](https://img.shields.io/aur/license/c
 )
