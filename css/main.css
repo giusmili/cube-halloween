@@ -40,7 +40,7 @@ header h1{
 		filter: drop-shadow(0 0 0 0);
     }
     to{
-		filter: drop-shadow(3px -3px 5px #ffff00);
+		filter: drop-shadow(0 0 .6rem rgb(255, 255, 0, .8));
     }
 }
  .containCube {
