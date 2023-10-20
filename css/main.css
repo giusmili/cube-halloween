@@ -143,6 +143,9 @@ header h1{
 	 background: rgba(217, 101, 181, 0.9);
      box-shadow: inset 0 0 3rem #222;
 }
+#footer{
+	color: #fff;
+}
  @keyframes rotate {
 	 10% {
 		 transform: rotate3d(1, 1, 0, 320deg);
