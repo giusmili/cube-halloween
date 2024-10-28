@@ -43,6 +43,9 @@ header h1{
 		filter: drop-shadow(0 0 1rem rgb(255, 255, 0, .8));
     }
 }
+header h1 span{
+	font-size: 4.5rem;
+}
  .containCube {
 	 position: relative;
 	 height: 100vh;
