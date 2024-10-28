@@ -44,7 +44,18 @@ header h1{
     }
 }
 header h1 span{
+	display: inline-block;
 	font-size: 4.5rem;
+	animation: translate .6s linear infinite alternate;
+}
+@keyframes translate{
+    from{
+		transform: translateY(-1.5rem);
+    }
+    to{
+		transform: translateY(1.5rem);
+		
+    }
 }
  .containCube {
 	 position: relative;
