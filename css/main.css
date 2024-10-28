@@ -24,14 +24,14 @@ header h1{
 	font-family: 'halloween_tooregular';
 	text-align: center;
 	color: #a91010;
-	font-size: 7.5rem;
+	font-size: 8.5rem;
 	letter-spacing: .5rem;
 	animation: blur 2.5s linear infinite alternate;
     animation-delay: 0s;
-	text-shadow: -.1rem -.1rem 0 #222, 
-	.1rem -.1rem 0 #222, 
-	-.1rem .1rem 0 #222, 
-	.1rem .1rem 0 #222, 
+	text-shadow: -.2rem -.2rem 0 #222, 
+	.2rem -.2rem 0 #222, 	
+	-.2rem .2rem 0 #222, 
+	.2rem .2rem 0 #222, 
 	.4rem .4rem 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -40,7 +40,7 @@ header h1{
 		filter: drop-shadow(0 0 0 0);
     }
     to{
-		filter: drop-shadow(0 0 .6rem rgb(255, 255, 0, .8));
+		filter: drop-shadow(0 0 1rem rgb(255, 255, 0, .8));
     }
 }
  .containCube {
