@@ -160,6 +160,7 @@ header h1 span{
 footer p{
 	color: #fafafa;
 	text-align: center;
+	font-variant: small-caps;
 }
  @keyframes rotate {
 	 10% {
